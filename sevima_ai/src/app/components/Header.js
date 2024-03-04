@@ -1,10 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import './Styles/Header.css';
 
 const Header = () => {
   return (
-    <header>
+    <header className='home-header'>
       <div className='logo-left'>
         <Image src='/black-sevima-logo.png' alt='logo' width={40} height={40} draggable={false} />
         <span className="logo-text">sevima</span>
